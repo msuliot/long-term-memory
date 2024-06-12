@@ -37,8 +37,8 @@ MONGO=your_mongodb_connection_string
 OPENAI_API_KEY=your_chatgpt_api_key
 ```
 
-- `MONGODB_URI`: Your MongoDB connection string.
-- `CHATGPT_API_KEY`: Your API key for accessing ChatGPT.
+- `MONGO`: Your MongoDB connection string.
+- `OPENAI_API_KEY`: Your API key for accessing ChatGPT.
 
 ## Usage
 
@@ -68,4 +68,3 @@ OPENAI_API_KEY=your_chatgpt_api_key
     ```plaintext
     exit, quit, bye, end, done, thanks
     ```
-    
