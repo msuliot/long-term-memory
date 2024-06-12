@@ -68,3 +68,4 @@ OPENAI_API_KEY=your_chatgpt_api_key
     ```plaintext
     exit, quit, bye, end, done, thanks
     ```
+    
