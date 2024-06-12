@@ -7,8 +7,8 @@ env = envs()
 
 class MongoHelper:
     def __init__(self):
-        self.client = MongoClient(env.mongo_uri)
-        self.db = self.client['ltm']
+        self.client = MongoClient(env.mongo_uri) # mongo cluster uri
+        self.db = self.client['ltm'] # ltm is the database name
 
     def generate_timestamp(self):
         current_time_utc = datetime.now(timezone.utc)
